@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="autocomplete" content="off">
+
+    <title>ResQLink - Community Registration</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="page">
+
+        <!-- LEFT SIDE -->
+        <section class="hero">
+
+            <div class="brand">
+
+                <div class="brand-icon">
+                    🛡️
+                </div>
+
+                <h1>
+                    Res<span>Q</span>Link
+                </h1>
+
+                <p>Community Registration</p>
+
+            </div>
+
+            <div class="hero-content">
+
+                <h2>
+                    Together,<br>
+                    We Can Save Lives.
+                </h2>
+
+                <p>
+                    Join your community's emergency
+                    communication network.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- RIGHT SIDE -->
+        <section class="form-section">
+
+            <div class="form-card">
+
+                <div class="welcome">
+
+                    <div class="welcome-icon">
+                        🤝
+                    </div>
+
+                    <div>
+                        <h2>Welcome to the Community</h2>
+
+                        <p>
+                            Register to connect, help and stay
+                            safe together.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <form id="registrationForm"
+                      autocomplete="off"
+                      >
+
+
+                    <!-- FULL NAME -->
+
+                    <div class="field">
+
+                        <label for="name">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="resq_name"
+                            placeholder="Enter your full name"
+                            autocomplete="new-password"
+                            autocorrect="off"
+                            autocapitalize="words"
+                            spellcheck="false"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- MOBILE NUMBER -->
+
+                    <div class="field">
+
+                        <label for="phone">
+                            Mobile Number
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="resq_phone"
+                            placeholder="Enter your mobile number"
+                            autocomplete="new-password"
+                            autocorrect="off"
+                            spellcheck="false"
+                            inputmode="numeric"
+                            maxlength="10"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- EMAIL -->
+
+                    <div class="field">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="resq_email"
+                            placeholder="Enter your email address"
+                            autocomplete="new-password"
+                            autocorrect="off"
+                            spellcheck="false"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- STATE -->
+
+                    <div class="field">
+
+                        <label for="state">
+                            State
+                        </label>
+
+                        <select
+                            id="state"
+                            name="resq_state"
+                            autocomplete="off"
+                            required
+                        >
+
+                            <option value="">
+                                Select your state
+                            </option>
+
+                            <option>Andhra Pradesh</option>
+                            <option>Arunachal Pradesh</option>
+                            <option>Assam</option>
+                            <option>Bihar</option>
+                            <option>Chhattisgarh</option>
+                            <option>Goa</option>
+                            <option>Gujarat</option>
+                            <option>Haryana</option>
+                            <option>Himachal Pradesh</option>
+                            <option>Jharkhand</option>
+                            <option>Karnataka</option>
+                            <option>Kerala</option>
+                            <option>Madhya Pradesh</option>
+                            <option>Maharashtra</option>
+                            <option>Manipur</option>
+                            <option>Meghalaya</option>
+                            <option>Mizoram</option>
+                            <option>Nagaland</option>
+                            <option>Odisha</option>
+                            <option>Punjab</option>
+                            <option>Rajasthan</option>
+                            <option>Sikkim</option>
+                            <option>Tamil Nadu</option>
+                            <option>Telangana</option>
+                            <option>Tripura</option>
+                            <option>Uttar Pradesh</option>
+                            <option>Uttarakhand</option>
+                            <option>West Bengal</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- AREA -->
+
+                    <div class="field">
+
+                        <label for="area">
+                            Area / Locality
+                        </label>
+
+                        <input
+                            type="text"
+                            id="area"
+                            name="resq_area"
+                            placeholder="Enter your area or locality"
+                            autocomplete="new-password"
+                            autocorrect="off"
+                            spellcheck="false"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- ADDRESS -->
+
+                    <div class="field">
+
+                        <label for="address">
+                            Address
+                        </label>
+
+                        <textarea
+                            id="address"
+                            name="resq_address"
+                            placeholder="Enter your address"
+                            autocomplete="new-password"
+                            autocorrect="off"
+                            spellcheck="false"
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <!-- EMERGENCY CONTACTS -->
+
+                    <div class="section-title">
+                        Emergency Contact
+                    </div>
+
+                    <div class="two-column">
+
+                        <div class="field">
+
+                            <label for="emergencyName">
+                                Contact Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="emergencyName"
+                                name="resq_emergency_name"
+                                placeholder="Contact name"
+                                autocomplete="new-password"
+                                autocorrect="off"
+                                spellcheck="false"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label for="emergencyPhone">
+                                Contact Number
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="emergencyPhone"
+                                name="resq_emergency_phone"
+                                placeholder="Contact number"
+                                autocomplete="new-password"
+                                autocorrect="off"
+                                spellcheck="false"
+                                inputmode="numeric"
+                                maxlength="10"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- LOCATION -->
+
+                    <div class="location-box">
+
+                        <div class="section-title">
+                            📍 Your Current Location
+                        </div>
+
+                        <button
+                            type="button"
+                            id="locationButton"
+                            class="location-button"
+                        >
+                            📍 Allow Location Access
+                        </button>
+
+                        <p id="locationStatus">
+                            Your location will only be used
+                            during emergencies.
+                        </p>
+
+                    </div>
+
+
+                    <!-- CONSENT -->
+
+                    <label class="consent">
+
+                        <input
+                            type="checkbox"
+                            id="locationConsent"
+                            required
+                        >
+
+                        <span>
+                            I agree to share my location
+                            during an emergency.
+                        </span>
+
+                    </label>
+
+
+                    <!-- REGISTER -->
+
+                    <button
+                        type="submit"
+                        class="register-button"
+                    >
+                        🛡️ Register to ResQLink
+                    </button>
+
+
+                    <p id="successMessage"
+                       class="success-message">
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+<style>
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+
+    background:
+        linear-gradient(
+            135deg,
+            #e8f4f7,
+            #f4f8fa
+        );
+
+    min-height: 100vh;
+
+    color: #102a43;
+}
+
+
+.page {
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+/* =========================
+   LEFT SIDE
+========================= */
+
+.hero {
+    width: 42%;
+
+    background:
+        linear-gradient(
+            145deg,
+            #073b4c,
+            #0b6673,
+            #168a8a
+        );
+
+    color: white;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    padding: 60px 55px;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+
+/* Decorative circles */
+
+.hero::before {
+    content: "";
+
+    position: absolute;
+
+    width: 350px;
+    height: 350px;
+
+    border-radius: 50%;
+
+    border: 70px solid rgba(255,255,255,0.06);
+
+    top: -120px;
+    left: -120px;
+}
+
+
+.hero::after {
+    content: "";
+
+    position: absolute;
+
+    width: 300px;
+    height: 300px;
+
+    border-radius: 50%;
+
+    border: 50px solid rgba(255,255,255,0.05);
+
+    bottom: -130px;
+    right: -100px;
+}
+
+
+.brand {
+    position: relative;
+    z-index: 2;
+}
+
+
+.brand-icon {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(255,255,255,0.15);
+
+    border: 1px solid rgba(255,255,255,0.25);
+
+    border-radius: 16px;
+
+    font-size: 27px;
+
+    margin-bottom: 18px;
+}
+
+
+.brand h1 {
+    font-size: 46px;
+
+    letter-spacing: -1.5px;
+
+    font-weight: 800;
+}
+
+
+.brand h1 span {
+    color: #5eead4;
+}
+
+
+.brand p {
+    margin-top: 8px;
+
+    font-size: 17px;
+
+    color: #d5f5f2;
+}
+
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+
+    max-width: 420px;
+}
+
+
+.hero-content h2 {
+    font-size: 42px;
+
+    line-height: 1.15;
+
+    margin-bottom: 20px;
+}
+
+
+.hero-content p {
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    color: #d9f5f3;
+}
+
+
+/* =========================
+   RIGHT SIDE
+========================= */
+
+.form-section {
+    width: 58%;
+
+    padding: 35px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    overflow-y: auto;
+}
+
+
+.form-card {
+    background: white;
+
+    width: 100%;
+
+    max-width: 680px;
+
+    padding: 40px;
+
+    border-radius: 28px;
+
+    box-shadow:
+        0 20px 60px rgba(7,59,76,0.12);
+
+    border: 1px solid #e4eef1;
+}
+
+
+/* =========================
+   WELCOME
+========================= */
+
+.welcome {
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+    margin-bottom: 30px;
+}
+
+
+.welcome-icon {
+    width: 58px;
+    height: 58px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 18px;
+
+    background: #e6f7f5;
+
+    font-size: 28px;
+}
+
+
+.welcome h2 {
+    font-size: 27px;
+
+    color: #073b4c;
+
+    margin-bottom: 5px;
+}
+
+
+.welcome p {
+    color: #718096;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+.field {
+    margin-bottom: 18px;
+}
+
+
+.field label {
+    display: block;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    color: #173b4d;
+
+    margin-bottom: 7px;
+}
+
+
+input,
+select,
+textarea {
+    width: 100%;
+
+    border: 1px solid #d8e4e8;
+
+    background: #fbfdfe;
+
+    border-radius: 12px;
+
+    padding: 13px 15px;
+
+    font-size: 15px;
+
+    color: #173b4d;
+
+    outline: none;
+
+    transition: 0.2s;
+}
+
+
+input,
+select {
+    height: 48px;
+}
+
+
+textarea {
+    min-height: 85px;
+
+    resize: vertical;
+}
+
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #159a9c;
+
+    background: white;
+
+    box-shadow:
+        0 0 0 3px rgba(21,154,156,0.10);
+}
+
+
+input::placeholder,
+textarea::placeholder {
+    color: #9aaab2;
+}
+
+
+/* =========================
+   TWO COLUMNS
+========================= */
+
+.two-column {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 14px;
+}
+
+
+.section-title {
+    font-size: 14px;
+
+    font-weight: 700;
+
+    color: #173b4d;
+
+    margin-bottom: 10px;
+}
+
+
+/* =========================
+   LOCATION
+========================= */
+
+.location-box {
+    margin-top: 4px;
+
+    padding: 18px;
+
+    background: #f3faf9;
+
+    border: 1px solid #d5efeb;
+
+    border-radius: 15px;
+}
+
+
+.location-button {
+    width: 100%;
+
+    border: none;
+
+    border-radius: 11px;
+
+    padding: 13px;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    color: white;
+
+    background:
+        linear-gradient(
+            135deg,
+            #087f8c,
+            #159a9c
+        );
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+
+.location-button:hover {
+    transform: translateY(-1px);
+
+    box-shadow:
+        0 7px 18px rgba(8,127,140,0.22);
+}
+
+
+#locationStatus {
+    margin-top: 9px;
+
+    font-size: 12px;
+
+    color: #6b7f86;
+}
+
+
+/* =========================
+   CONSENT
+========================= */
+
+.consent {
+    display: flex;
+
+    gap: 10px;
+
+    align-items: flex-start;
+
+    margin-top: 18px;
+
+    font-size: 13px;
+
+    line-height: 1.5;
+
+    color: #526a73;
+
+    cursor: pointer;
+}
+
+
+.consent input {
+    width: 18px;
+    height: 18px;
+
+    margin-top: 1px;
+
+    accent-color: #159a9c;
+}
+
+
+/* =========================
+   REGISTER BUTTON
+========================= */
+
+.register-button {
+    width: 100%;
+
+    margin-top: 23px;
+
+    border: none;
+
+    border-radius: 13px;
+
+    padding: 15px;
+
+    font-size: 16px;
+
+    font-weight: 800;
+
+    color: white;
+
+    background:
+        linear-gradient(
+            135deg,
+            #e63946,
+            #d62839
+        );
+
+    cursor: pointer;
+
+    box-shadow:
+        0 9px 20px rgba(214,40,57,0.20);
+
+    transition: 0.2s;
+}
+
+
+.register-button:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 12px 25px rgba(214,40,57,0.28);
+}
+
+
+/* =========================
+   SUCCESS
+========================= */
+
+.success-message {
+    display: none;
+
+    margin-top: 16px;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    background: #e8f7f3;
+
+    color: #087f5b;
+
+    text-align: center;
+
+    font-size: 14px;
+
+    font-weight: 700;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 850px) {
+
+    .page {
+        display: block;
+    }
+
+
+    .hero {
+        width: 100%;
+
+        min-height: 280px;
+
+        padding: 35px 25px;
+    }
+
+
+    .hero-content h2 {
+        font-size: 32px;
+    }
+
+
+    .hero-content p {
+        font-size: 15px;
+    }
+
+
+    .form-section {
+        width: 100%;
+
+        padding: 20px 12px;
+    }
+
+
+    .form-card {
+        padding: 25px 20px;
+
+        border-radius: 20px;
+    }
+
+
+    .two-column {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width: 450px) {
+
+    .brand h1 {
+        font-size: 37px;
+    }
+
+
+    .welcome h2 {
+        font-size: 22px;
+    }
+
+}
+</style>
+<script>const form =
+    document.getElementById("registrationForm");
+
+const locationButton =
+    document.getElementById("locationButton");
+
+const locationStatus =
+    document.getElementById("locationStatus");
+
+const latitudeInput =
+    document.getElementById("latitude");
+
+const longitudeInput =
+    document.getElementById("longitude");
+
+const successMessage =
+    document.getElementById("successMessage");
+
+
+// ==============================
+// LOCATION ACCESS
+// ==============================
+
+locationButton.addEventListener(
+    "click",
+    function () {
+
+        if (!navigator.geolocation) {
+
+            locationStatus.textContent =
+                "❌ Location is not supported by this browser.";
+
+            return;
+        }
+
+
+        locationStatus.textContent =
+            "📍 Requesting location permission...";
+
+
+        navigator.geolocation.getCurrentPosition(
+
+            function (position) {
+
+                const latitude =
+                    position.coords.latitude;
+
+                const longitude =
+                    position.coords.longitude;
+
+
+                // Create hidden fields if needed
+
+                let lat =
+                    document.getElementById("latitude");
+
+                let lon =
+                    document.getElementById("longitude");
+
+
+                if (!lat) {
+
+                    lat =
+                        document.createElement("input");
+
+                    lat.type = "hidden";
+                    lat.id = "latitude";
+
+                    form.appendChild(lat);
+                }
+
+
+                if (!lon) {
+
+                    lon =
+                        document.createElement("input");
+
+                    lon.type = "hidden";
+                    lon.id = "longitude";
+
+                    form.appendChild(lon);
+                }
+
+
+                lat.value = latitude;
+                lon.value = longitude;
+
+
+                locationStatus.textContent =
+                    "✅ Location access granted.";
+
+                locationButton.textContent =
+                    "📍 Location Enabled";
+
+
+                locationButton.style.background =
+                    "linear-gradient(135deg, #087f5b, #159a74)";
+            },
+
+
+            function (error) {
+
+                if (error.code === 1) {
+
+                    locationStatus.textContent =
+                        "❌ Location permission was denied.";
+
+                }
+
+                else if (error.code === 2) {
+
+                    locationStatus.textContent =
+                        "❌ Unable to determine your location.";
+
+                }
+
+                else {
+
+                    locationStatus.textContent =
+                        "❌ Location request timed out.";
+
+                }
+
+            },
+
+            {
+                enableHighAccuracy: true,
+                timeout: 10000,
+                maximumAge: 0
+            }
+
+        );
+
+    }
+);
+
+
+// ==============================
+// FORM SUBMISSION
+// ==============================
+
+form.addEventListener(
+    "submit",
+    function (event) {
+
+        event.preventDefault();
+
+
+        // Get values
+
+        const name =
+            document.getElementById("name").value.trim();
+
+        const phone =
+            document.getElementById("phone").value.trim();
+
+        const email =
+            document.getElementById("email").value.trim();
+
+        const state =
+            document.getElementById("state").value;
+
+        const area =
+            document.getElementById("area").value.trim();
+
+        const address =
+            document.getElementById("address").value.trim();
+
+        const emergencyName =
+            document.getElementById("emergencyName").value.trim();
+
+        const emergencyPhone =
+            document.getElementById("emergencyPhone").value.trim();
+
+        const consent =
+            document.getElementById("locationConsent").checked;
+
+
+        // ==============================
+        // VALIDATION
+        // ==============================
+
+        if (phone.length !== 10 ||
+            !/^[0-9]+$/.test(phone)) {
+
+            alert(
+                "Please enter a valid 10-digit mobile number."
+            );
+
+            return;
+        }
+
+
+        if (
+            emergencyPhone.length !== 10 ||
+            !/^[0-9]+$/.test(emergencyPhone)
+        ) {
+
+            alert(
+                "Please enter a valid 10-digit emergency contact number."
+            );
+
+            return;
+        }
+
+
+        if (!consent) {
+
+            alert(
+                "Please agree to share your location during an emergency."
+            );
+
+            return;
+        }
+
+
+        // ==============================
+        // USER DATA
+        // ==============================
+
+        const user = {
+
+            name: name,
+
+            phone: phone,
+
+            email: email,
+
+            state: state,
+
+            area: area,
+
+            address: address,
+
+            emergencyContact: {
+
+                name: emergencyName,
+
+                phone: emergencyPhone
+
+            },
+
+            locationConsent: true
+
+        };
+
+
+        // Add location if available
+
+        const latitude =
+            document.getElementById("latitude");
+
+        const longitude =
+            document.getElementById("longitude");
+
+
+        if (latitude && longitude) {
+
+            user.location = {
+
+                latitude: latitude.value,
+
+                longitude: longitude.value
+
+            };
+
+        }
+
+
+        // Save prototype data
+
+        localStorage.setItem(
+            "resqlinkUser",
+            JSON.stringify(user)
+        );
+
+
+        // Success
+
+        successMessage.style.display =
+            "block";
+
+        successMessage.textContent =
+            "✓ Registration successful. Welcome to ResQLink!";
+
+
+        console.log(
+            "ResQLink Registered User:",
+            user
+        );
+
+    }
+);</script>
